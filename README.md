@@ -1,6 +1,6 @@
 # Clrs
 
-Easily include the <http://www.clrs.cc> variables in your Rails apps.
+Easily include the <http://www.clrs.cc> palette as scss variables in your Rails apps.
 
 ## Installation
 
