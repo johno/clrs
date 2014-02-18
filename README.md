@@ -46,7 +46,7 @@ $gray:    #aaaaaa;
 $black:   #111111;
 ```
 
-__NOTE:__ You must require the clrs stylesheet before stylesheets using the above scss variables.
+__NOTE:__ You must require the clrs stylesheet before other stylesheets using the above scss variables.
 
 ## Contributing
 
