@@ -46,6 +46,24 @@ $gray:    #aaaaaa;
 $black:   #111111;
 ```
 
+Additionally, there are `background-color` and `color` classes:
+
+```scss
+/* Backgrounds */
+
+.bg-navy    { background-color: $navy;    }
+.bg-blue    { background-color: $blue;    }
+.bg-aqua    { background-color: $aqua;    }
+/* ... */
+
+/* Colors */
+
+.navy    { color: $navy;    }
+.blue    { color: $blue;    }
+.aqua    { color: $aqua;    }
+/* ... */
+```
+
 __NOTE:__ You must require the clrs stylesheet before other stylesheets using the above scss variables.
 
 ## Contributing
