@@ -6,22 +6,30 @@ Easily include the <http://www.clrs.cc> palette as scss variables in your Rails 
 
 Add this line to your application's Gemfile:
 
-    gem 'clrs'
+```ruby
+gem 'clrs'
+```
 
 And then execute:
 
-    $ bundle
+```
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install clrs
+```
+$ gem install clrs
+```
 
 You will then need to require the stylesheet in your application.scss:
+
 ```scss
 @import "clrs";
 ```
 
 Or, in your application.css:
+
 ```css
 *= require clrs;
 ```
