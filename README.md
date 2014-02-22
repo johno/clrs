@@ -16,11 +16,19 @@ Or install it yourself as:
 
     $ gem install clrs
 
-You will then need to require the stylesheet in your application.css:
+You will then need to require the stylesheet in your application.scss:
 
+```scss
+@import "clrs";
 ```
+
+Or, in your application.css:
+
+```css
 *= require clrs;
 ```
+
+
 
 ## Usage
 
