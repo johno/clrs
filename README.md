@@ -1,6 +1,6 @@
 # Clrs
 
-Easily include the <http://www.clrs.cc> palette as scss variables in your Rails apps.
+Include the <http://www.clrs.cc> palette as scss variables in your Rails apps.
 
 Repackaged from: <https://github.com/mrmrs/colors>.
 
