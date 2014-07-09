@@ -24,19 +24,21 @@ Or install it yourself as:
 $ gem install clrs
 ```
 
+##### Using Sass
+
 You will then need to require the stylesheet in your application.scss:
 
 ```scss
 @import "clrs";
 ```
 
+##### Using CSS
+
 Or, in your application.css:
 
 ```css
 *= require clrs;
 ```
-
-
 
 ## Usage
 
@@ -89,3 +91,5 @@ __NOTE:__ You must require the clrs stylesheet before other stylesheets using th
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+More documentation on clrs.cc available at <<https://github.com/mrmrs/colors>.
