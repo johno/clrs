@@ -32,12 +32,24 @@ You will then need to require the stylesheet in your application.scss:
 @import "clrs";
 ```
 
+There's also a saturated color palette <http://mrmrs.io/colors-saturated/> which can be included instead:
+
+```scss
+@import "clrs-saturated";
+```
+
 ##### Using CSS
 
 Or, in your application.css:
 
 ```css
 *= require clrs;
+```
+
+Or, for the saturated color scheme:
+
+```css
+*= require clrs-saturated;
 ```
 
 ## Usage
