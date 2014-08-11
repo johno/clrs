@@ -2,7 +2,7 @@
 
 Include the <http://www.clrs.cc> palette as scss variables in your Rails apps.
 
-Repackaged from: <https://github.com/mrmrs/colors> by @mrmrs_.
+Repackaged from: <https://github.com/mrmrs/colors> by @mrmrs.
 
 ## Installation
 
@@ -104,4 +104,8 @@ __NOTE:__ You must require the clrs stylesheet before other stylesheets using th
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-More documentation on clrs.cc available at <https://github.com/mrmrs/colors>.
+## Acknowledgements
+
+  * The scss is written by @mrmrs: <https://github.com/mrmrs/colors>
+
+More documentation available at <https://github.com/mrmrs/colors>.
