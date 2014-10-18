@@ -1,5 +1,7 @@
 # Clrs
 
+[![Build Status](https://travis-ci.org/johnotander/clrs.svg?branch=master)](https://travis-ci.org/johnotander/clrs)
+
 Include the <http://www.clrs.cc> palette as scss variables in your Rails apps.
 
 Repackaged from: <https://github.com/mrmrs/colors> by @mrmrs_.
