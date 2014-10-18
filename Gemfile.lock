@@ -1,0 +1,19 @@
+PATH
+  remote: .
+  specs:
+    clrs (2.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.4.2)
+    rake (10.3.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.3)
+  clrs!
+  minitest
+  rake
