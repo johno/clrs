@@ -17,7 +17,7 @@ module Clrs
     silver: "#ddd",
     gray:   "#aaa",
     black:  "#111",
-  }
+  }.freeze
 
   def self.colors
     @colors
@@ -46,7 +46,7 @@ module Clrs
       silver: "#777",
       gray:   "#333",
       black:  "#000",
-    }
+    }.freeze
 
     def self.colors
       @colors
