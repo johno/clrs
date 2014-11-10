@@ -98,6 +98,27 @@ Additionally, there are `background-color` and `color` classes:
 
 __NOTE:__ You must require the clrs stylesheet before other stylesheets using the above scss variables.
 
+### The `Clrs` module
+
+There's also a `Clrs` module so you can access the hex values in Ruby, too:
+
+```ruby
+require 'clrs'
+# => true 
+
+Clrs.colors
+# => {:aqua=>"#7FDBFF", :blue=>"#0074D9", :navy=>"#001F3F", :teal=>"#39CCCC", :green=>"#2ECC40", :olive=>"#3D9970", :lime=>"#01FF70", :yellow=>"#FFDC00", :orange=>"#FF851B", :red=>"#FF4136", :fuchsia=>"#F012BE", :purple=>"#B10DC9", :maroon=>"#85144B", :white=>"#fff", :silver=>"#ddd", :gray=>"#aaa", :black=>"#111"} 
+
+Clrs::Saturated.colors
+# => {:navy=>"#002B75", :blue=>"#0050D4", :aqua=>"#00D9F7", :teal=>"#00A6A6", :olive=>"#00B562", :green=>"#00D942", :lime=>"#B4D900", :yellow=>"#EBCF00", :orange=>"#EB7700", :red=>"#EB0012", :maroon=>"#790009", :fuchsia=>"#FF00C3", :purple=>"#8D00FF", :white=>"#fff", :silver=>"#777", :gray=>"#333", :black=>"#000"} 
+
+Clrs.blue
+# => "#0074D9" 
+
+Clrs::Saturated.olive
+# => "#00B562" 
+```
+
 ## Contributing
 
 1. Fork it
