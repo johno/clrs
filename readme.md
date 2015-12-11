@@ -1,10 +1,6 @@
-# Clrs
+# clrs [![Build Status](https://travis-ci.org/johnotander/clrs.svg?branch=master)](https://travis-ci.org/johnotander/clrs)
 
-[![Build Status](https://travis-ci.org/johnotander/clrs.svg?branch=master)](https://travis-ci.org/johnotander/clrs)
-
-Include the <http://www.clrs.cc> palette as scss variables in your Rails apps.
-
-Repackaged from: <https://github.com/mrmrs/colors> by @mrmrs_.
+Include the [colors.css](http://www.clrs.cc) palette as scss variables in your Rails apps.
 
 ## Installation
 
@@ -119,6 +115,10 @@ Clrs::Saturated.olive
 # => "#00B562" 
 ```
 
+## Related
+
+  * <https://github.com/mrmrs/colors>
+
 ## Contributing
 
 1. Fork it
@@ -127,8 +127,6 @@ Clrs::Saturated.olive
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-## Acknowledgements
+***
 
-  * The scss is written by @mrmrs_: <https://github.com/mrmrs/colors>
-
-More documentation available at <https://github.com/mrmrs/colors>.
+> More documentation available at <https://github.com/mrmrs/colors>.
